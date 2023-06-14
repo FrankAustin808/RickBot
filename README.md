@@ -16,9 +16,9 @@
 - msg-formtatting [ Shows Discords Message Format! ]
 
 ## Releases / Status 🙃
-![last-commit](https://img.shields.io/github/last-commit/FrankIsDank/Rick) 
-![commit-activity](https://img.shields.io/github/commit-activity/m/FrankIsDank/Rick) 
-![reop-stars](https://img.shields.io/github/stars/FrankIsDank/Rick?label=Rick%27s%20Stars&logoColor=gray)
+![last-commit](https://img.shields.io/github/last-commit/FrankAustin808/RickBot) 
+![commit-activity](https://img.shields.io/github/commit-activity/m/FrankAustin808/RickBot) 
+![reop-stars](https://img.shields.io/github/stars/FrankAustin808/RickBot?label=Rick%27s%20Stars&logoColor=gray)
 
 ## Credits / Contributors 💙
 ### Credits
