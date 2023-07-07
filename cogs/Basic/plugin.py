@@ -185,7 +185,7 @@ class Basic(Plugin):
 
     @app_commands.command(
         name='msg-format',
-        description="Shows Discord Message Formating! [ WARNING Do this in empty or closed channels!]"
+        description="Shows Discord Message Formating!"
     )
     async def message_formating(self, interaction: Interaction):
         await interaction.response.send_message('''
@@ -278,7 +278,7 @@ Test Multi-Line Code Block
 >>> Test
 Hello 
 How Are Ya?
-''')
+''', ephemeral=True)
 
     @app_commands.command(
         name='status',
@@ -289,6 +289,8 @@ How Are Ya?
 
         voice_channels = len(guild.voice_channels)
         text_channels = len(guild.text_channels)
+        sevrer_categories = len(interaction.guild.categories)
+
 
         embed = Embed(color=discord.Colour.random())
 
@@ -313,6 +315,10 @@ How Are Ya?
             name="Custom Emojies",
             value=emoji_string or "No custom emojies detected",
             inline=False
+        )
+        embed.add_field(
+            name="Categories",
+            value=sevrer_categories
         )
         embed.add_field(
             name="Voice Channels",
